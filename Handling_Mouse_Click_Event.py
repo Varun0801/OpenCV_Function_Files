@@ -32,8 +32,8 @@ def click_event(event,x,y,flags,params):
         cv2.imshow('image',img)
         
 
-img = cv2.imread(r'D:\My_Face_DataSet\varun.jpg',1)
-img = cv2.resize(img,(1000,900))
+img = cv2.imread(r'D:\My_Face_DataSet\Template1.png',1)
+#img = cv2.resize(img,(1000,900))
 cv2.imshow('image',img)
 
 cv2.setMouseCallback('image', click_event)
