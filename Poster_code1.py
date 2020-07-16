@@ -12,7 +12,6 @@ img = cv2.imread(r'D:\My_Face_DataSet\home_final1.jpg',1)
 img = cv2.resize(img,(680,1020))
 print(img.shape)
 
-
 font = cv2.FONT_HERSHEY_COMPLEX
 name1 = "Burger"
 img = cv2.putText(img,name1,(120,800),font,1.80,(0,0,255),3)
