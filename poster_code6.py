@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Jul 18 18:12:59 2020
+Created on Sun Jul 19 23:31:24 2020
 
 @author: VARUN SAKUNIA
 """
+
 
 from PIL import Image,ImageFont, ImageDraw
 
